@@ -6,6 +6,7 @@ import { App } from './app';
 import { Home } from './home/home';
 import { PageNotFound } from './page-not-found/page-not-found';
 import { Profile } from './profile/profile';
+import { Users } from './users/users';
 
 export const routes: Routes = [
   {
@@ -30,7 +31,10 @@ export const routes: Routes = [
     path: 'contact',
     component: Contact,
   },
-
+  {
+    path: 'user/:id/:name/:email/:age',
+    component: Users,
+  },
   {
     path: '**',
     component: PageNotFound,

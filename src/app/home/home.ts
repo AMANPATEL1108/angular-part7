@@ -14,4 +14,31 @@ export class Home {
   // goToProfile() {
   //   this.router.navigate(['profile'], { queryParams: { name: 'Aman patel' } });
   // }
+
+  users = [
+    {
+      id: '1',
+      name: 'Aman',
+      age: '28',
+      email: 'aman@gmail.com',
+    },
+    {
+      id: '2',
+      name: 'Aman2',
+      age: '29',
+      email: 'aman2@gmail.com',
+    },
+    {
+      id: '3',
+      name: 'Aman3',
+      age: '30',
+      email: 'aman3@gmail.com',
+    },
+    {
+      id: '4',
+      name: 'Aman4',
+      age: '31',
+      email: 'aman4@gmail.com',
+    },
+  ];
 }

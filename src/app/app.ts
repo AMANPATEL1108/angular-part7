@@ -10,4 +10,6 @@ import { Header } from './header/header';
 })
 export class App {
   protected title = 'angular-part7';
+
+ 
 }

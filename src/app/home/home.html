@@ -6,4 +6,16 @@
 
 <!-- <button (click)="goToProfile()">Go to Profile Page</button> -->
 
-<a routerLink="profile">Go to Profile</a>
+<!-- <a routerLink="profile">Go to Profile</a> -->
+
+<h1>User List</h1>
+<ul>
+@for(user of users;track user.id){
+    <!-- user/:id/:na   me/:email/:age -->
+
+    <li><a routerLink="user/{{user.id}}/{{user.name}}/{{user.email}}/{{user.age}}">   {{user.name}}</a></li>
+
+}
+</ul>
+
+
